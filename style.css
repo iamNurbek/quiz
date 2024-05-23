@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+body {
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+
+h1 {
+  font-weight: 600;
+  margin: 20px 0;
+  font-size: 40px;
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+.quiz-container {
+  position: relative;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.question {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.answers {
+  text-align: left;
+  display: inline-block;
+}
+
+.answers label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+button {
+  font-size: 22px;
+  background-color: #279;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #38a;
+}
+
+.slide {
+  display: none; 
+}
+
+.active-slide {
+  display: block;
+}
+
+#progress-bar-container {
+  width: 50%;
+  background-color: #eee;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#progress-bar {
+  height: 20px;
+  background-color: #279;
+  width: 0%; 
+  border-radius: 3px;
+}
