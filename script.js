@@ -2,7 +2,7 @@
   const quizContainer = document.getElementById('quiz');
   const resultsContainer = document.getElementById('results');
   const submitButton = document.getElementById('submit');
-  const progressBar = document.getElementById('progress-bar'); // Progress bar element
+  const progressBar = document.getElementById('progress-bar');
   let currentSlide = 0;
 
   const myQuestions = [
@@ -97,7 +97,7 @@
       submitButton.style.display = 'none';
     }
 
-    updateProgressBar(); // Update progress bar whenever a slide is shown
+    updateProgressBar();
   }
 
   function updateProgressBar() {
